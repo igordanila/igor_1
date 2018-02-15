@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form method="GET" action="/departs">
+    <input type="submit" name="okbutton" value="Отделы" /><br />
+</form>
+
+<form method="GET" action="/employees">
+    <input type="submit" name="okbutton" value="Сотрудники" /><br />
+</form>
+<br />
+
+<form method="POST" action="/add_employee"><br />
+
+    Введите имя сотрудника:  <input type="text" name="fname" value="Игорь"><br />
+    Дата рождения:           <input type="text" name="lname" value="26.08.66"><br />
+    Зарплата:                <input type="text" name="salary" value="1.1"><br />
+    Номер отдела:            <input type="text" name="depart_id" value="1">
+
+    <br/>
+    <input type="submit" name="okbutton" value="Добавить сотрудника" />
+</form>
+
+<form method="POST" action="/delete_employee"><br />
+
+    Введите идентификатор сотрудника:  <input type="text" name="id" value="1"><br />
+    <br/>
+    <input type="submit" name="okbutton" value="Удалить сотрудника" />
+</form>
+
+
+</body>
+</html>

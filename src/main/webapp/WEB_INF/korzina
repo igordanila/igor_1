@@ -1,0 +1,32 @@
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+         <servlet-class>examples.Hello</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+
+<form method="post" action = "igor">
+
+    <table>
+        <tr>
+            <td>Имя базы</td>
+
+            <td><input type="text" value = "igor" name="firstName"></td>
+        </tr>
+
+        <tr>
+            <td> Пароль</td>
+            <td><input type="text" value = "root" name="seconName"></td>
+        </tr>
+
+        <tr>
+            <td><input type="submit"  name='knopka' value="Open"></td> <!-- Открыть базу -->
+        </tr>
+
+    </table>
+</form>

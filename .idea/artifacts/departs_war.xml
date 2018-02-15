@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="departs:war">
+    <output-path>$PROJECT_DIR$/../departs/target</output-path>
+    <root id="archive" name="spring-departs-web-0.0.1.war">
+      <element id="artifact" artifact-name="departs:war exploded" />
+    </root>
+  </artifact>
+</component>
